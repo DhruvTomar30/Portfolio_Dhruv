@@ -1,6 +1,6 @@
 Dhruv Tomar Portfolio for personal and commercial use. Designed with ♥️ and creativity by Me. 
 
-Link : dhruvportfolio.infinityfreeapp.com
+Link : http://dhruvportfolio.infinityfreeapp.com/?i=1
 
 Credits: 
 
