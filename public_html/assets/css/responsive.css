@@ -1,0 +1,116 @@
+@media (min-width: 768px) and (max-width: 1288px) {
+    .scale_img {
+        flex-direction: row;
+        padding-left: 10px;
+        padding-right: 80px;
+        gap: 40px;
+    }
+    .skill{
+        flex-wrap: unset;
+    }
+
+    .photo {
+        width: 80%;
+        height: 90%;
+    }
+    .col-lg-5{
+        width: 100%;
+        height: 100%;
+        padding-right: 40px;
+    }
+    .logo{
+        width: 15%;
+        height: 20%;
+        
+    }
+}
+
+@media(min-width:300px) and (max-width:767px){
+    .photo{
+        width: 100%;
+        height: auto;
+        padding: 10%;
+    }
+    .col-lg-5{
+        width: 100%;
+        height: auto;
+        padding: 10%;
+    }
+}
+
+/* @media (min-width: 768px) and (max-width: 992px) {
+    .scale_img{
+        padding-right: 20px;
+
+    }
+    .photo{
+        width: 100%;
+        height: 90%;
+    }
+   } */
+/* 
+@media (max-width: 767px) {
+    .scale_img {
+        padding-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+
+    } */
+
+    /* .photo {
+        width: 100%;
+        height: auto;
+    } */
+/* } */
+
+@media(min-width:100px) and (max-width:506px){
+    .logo{
+        padding-bottom: 10px;
+        /* gap: 20px; */
+    }
+}
+
+@media(max-width:300px){
+    .photo{
+      width:100% ;
+      height: auto;
+      padding: 10%;
+    }
+    .split{
+        gap: 10px;
+        margin: 20px;
+      }
+}
+    
+@media(min-width:768px) and (max-width:1199px){
+    div.card-body.one{
+        font-size: small;
+    }
+}
+
+/* @media(min-width:300px) and (max-width:1200px){
+    .text-holder{
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+      }
+      
+      .text-holder p{
+        position: relative;
+        top: 10px;
+        bottom: 0px;
+        color:black;
+      }
+      .roww{
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        top: -15px;
+        /* bottom: 0px; */
+      /* }
+} */ 
