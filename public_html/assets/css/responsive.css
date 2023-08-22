@@ -2,15 +2,15 @@
     .scale_img {
         flex-direction: row;
         padding-left: 10px;
-        padding-right: 80px;
-        gap: 40px;
+        /* padding-right: 80px; */
+        /* gap: 40px; */
     }
     .skill{
         flex-wrap: unset;
     }
 
     .photo {
-        width: 80%;
+        width: 70%;
         height: 90%;
     }
     .col-lg-5{

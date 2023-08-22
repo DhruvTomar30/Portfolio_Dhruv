@@ -190,7 +190,7 @@
     <!-- Skills Section  -->
     <section>
         <div class="scale_img skill" >
-            <div><img  class="photo" src="./assets/imgs/Dhruv 12.jpg" alt="image">
+            <div class="photo-box"><img  class="photo" src="./assets/imgs/Dhruv 12.jpg" alt="image">
             </div>
             <div style=" padding-top: 20px;" class="col-lg-5">
                 <div class="card">
@@ -287,7 +287,7 @@
                 <!-- </div> -->
                 <!-- cards section -->
                 <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 web new">
+                    <div class="col-md-6 col-lg-4 web new project-box">
                         <!-- card 1 ( latest and Full stack) -->
                         <div class="portfolio-item">
                             <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">

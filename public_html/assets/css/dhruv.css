@@ -11725,34 +11725,47 @@ pre .code {
 .scale_img{
   display: flex;
   margin-top: 60px;
-  gap: 100px;
+  /* gap: 100px; */
   /* margin-right: 50px; */
   /* padding-left: 50px; */
   /* background-size: cover; */
   /* padding: 100px; */
 }
 
+.photo-box{
+  display: flex;
+  justify-content: center;
+}
+
 
 .skill{
   display: flex;
   flex-wrap: wrap;
-  filter: grayscale(200%);
-  transition: filter 300ms;
+  
 }
 
-.skill:is(:hover, :focus){
-  filter: grayscale(0%);
-}
+
 
 .photo{
   width: 600px;
   height: 550px;
+  object-fit: cover;
   padding-top: 20px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+  /* filter: grayscale(200%); */
+  /* transition: filter 300ms; */
   /* opacity: 0.5; */
- 
+ }
 
-}
+ .photo:hover,.photo:focus{
+  filter: grayscale(0%);
+ }
+
+ /* .photo:is(:hover, :focus){
+  filter: grayscale(0%);
+} */
 
 
 .logo{
@@ -11789,3 +11802,12 @@ pre .code {
   background: red;
   color: white;
 }
+
+/* profolio project boxes */
+.project-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/*  */
