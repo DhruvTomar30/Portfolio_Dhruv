@@ -1,8 +1,8 @@
-JohnDoe Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+Dhruv Tomar Portfolio for personal and commercial use. Designed with ♥️ and creativity by Me. 
 
-Product Page: https://wwww.devcrud.com/
+Link : http://dhruvportfolio.infinityfreeapp.com/?i=1
 
-Credits:
+Credits: 
 
     Demo Images:
         Unsplash:       	(https://www.unsplash.com)
