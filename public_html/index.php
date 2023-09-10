@@ -26,7 +26,6 @@
                 <li class="social-item"><a class="social-link text-light" href="https://github.com/DhruvTomar30"><i class="ti-github" aria-hidden="true"></i></a></li>
             </ul>  
             <div class="header-content">
-                <!-- <h4 class="header-subtitle" >Hello, I am</h4> -->
                 <h4 class="header-subtitle">&nbsp;Hello, I am <br> </span></h4> 
                 <h1 class="header-title">Dhruv <span class="role"></h1>
                 <h4 class="header-subtitle1" >&nbsp;<span class="role1"></h4>
@@ -88,7 +87,8 @@
                 <ul class="mt40 info list-unstyled">
                     <li><span>Birthdate</span> : 15/10/2004</li>
                     <li><span>Email</span> : dhruvtomar2020@gmail.com</li>
-                    <li><span>Phone</span> : 9599305XX</li>
+                    <li><span>Phone</span> : 9599305251</li>
+                    <li><span>Qualification</span> : BCA (Persuing)</li>
                     
                     <li><span>Address</span> : Delhi-110092.</li>
                 </ul>
@@ -139,18 +139,18 @@
                         </div>
                         <div class="card-body">
                             <h6 class="title text-danger">Apr 2023 - Jul 2023</h6>
-                            <p>Full Stack Developer at Enord</p>
+                            <p><b>Full Stack Developer at Enord</b></p>
                             <P class="subtitle"><i>Working was a Web Developer (MERN) Intern where I was working on a project of building a community
                                 web portal for the organization and by that we had reached to those people who wants to find the
                                 solution for their day to day problems faced by them in their professional projects..</i></P>
                             <hr>
                             <h6 class="title text-danger">Apr 2023 - May 2023</h6>
-                            <P>Front-end Developer at Oasis Infobyte</P>
+                            <P><b>Front-end Developer at Oasis Infobyte</b></P>
                             <P class="subtitle"><i>I had been posted as a Web Developer Intern where I was working on some projects like A ToDo WebApp, Calculator, etc. This Internship provides me the opportunity to upgrade my skills on real
                                 time Projects. </i></P>
                             <hr>
                             <h6 class="title text-danger">Mar 2023- Apr 2023</h6>
-                            <P >Front-end Developer at PHN Technology ltd.</P>
+                            <P><b>Front-end Developer at PHN Technology ltd.</b></P>
                             <P class="subtitle"><i>Working was a Web Developer Intern in PHN Technology where I was building a project with Senior Developer’s
                                 to manage large and complex projects for Web Designing.</i></P>
                         </div>
@@ -166,15 +166,15 @@
                         </div>
                         <div class="card-body one ">
                             <h6 class="title text-danger">2021 - Present</h6>
-                            <P>Bachelor of Computer Applications</P>
+                            <P><b>Bachelor of Computer Applications</b></P>
                             <P class="subtitle">"I hold a Bachelor's degree in Computer Applications from DSEU College, where I gained a comprehensive understanding of key programming concepts and developed a strong foundation in various aspects of software development."</P>
                             <hr>
                             <h6 class="title text-danger">2020 - 2021</h6>
-                            <P>Senior High School Degree</P>
+                            <P><b>Senior High School Degree (12th)</b></P>
                             <P class="subtitle one">Proudly graduated from MC Gopi Chand Inter College, achieving academic milestones in Senior high School Degree and setting the stage for a bright future ahead, Where I excelled in 12th class, embracing a nurturing educational environment that fostered both intellectual and personal growth.</P>
                             <hr>
                             <h6 class="title text-danger">2018 - 2019</h6>
-                            <P>High School Degree</P>
+                            <P><b>High School Degree (10th) </b></P>
                             <P class="subtitle two">At M.C. Gopi Chand Inter College, I flourished academically during my high school years, laying the groundwork for a successful and fulfilling educational journey.</P>
                             
                         </div>
@@ -201,9 +201,9 @@
                         </div>
                     </div>
                     <div class="card-body pb-2">
-                        <h6>HTML5 &amp; CSS3</h6>
+                        <h6>HTML &amp; CSS</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>Bootstrap</h6>
                         <div class="progress mb-3">
@@ -211,7 +211,7 @@
                         </div>
                         <h6>JavaScript</h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h6>MySQL</h6>
                         <div class="progress mb-3">
@@ -221,7 +221,7 @@
                         <div class="progress mb-3">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h6>DSA</h6>
+                        <h6>Data Structure & Algorithms </h6>
                         <div class="progress mb-3">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -667,7 +667,7 @@
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/Phn.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="assets/imgs/Phn.png" alt="">
                     </div>
                     <div class="content-holder">
                         <h6 class="title">PHN Technology</h6>
@@ -689,7 +689,7 @@
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/Oasis infobyte.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="assets/imgs/Oasis infobyte.png " alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h4 class="title">Oasis Infobyte</h4>
@@ -746,7 +746,7 @@
                                 <i class="ti-mobile icon-md"></i>
                             </div>
                             <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">95993052XX</span></h6>
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">9599305251</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -779,9 +779,9 @@
         </div>
     </div>
     <footer class="footer py-3">
-        <div class="container">
-            <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="#"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DHRUV</span></a> 
+        <div class="container d-flex justify-content-center">
+            <p class="small mb-0 text-light ">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <b><i class="ti-heart text-danger"></i> </b> By <a href="#"><span class="text-danger" title="Portfolio"><b>DHRUV </b></span></a> 
             </p>
         </div>
     </footer>
@@ -821,6 +821,7 @@
     var typeData = new Typed(".role1", {
       strings: [
         "Front-end Developer",
+        "UI / UX Designer",
         "Web Developer | Designer",
        
       ],
