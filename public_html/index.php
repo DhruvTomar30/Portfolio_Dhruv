@@ -265,11 +265,11 @@
     <hr>
 
     <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
-        <div class="container">
+    <!-- <section class="section bg-custom-gray" id="portfolio"> -->
+        <!-- <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
-            <!-- <div class="row"> -->
+            
             <div class="filters">
                     <a href="#" data-filter=".new" class="active">
                         Latest 
@@ -284,11 +284,10 @@
                         Full Stack
                     </a>
                 </div>
-                <!-- </div> -->
-                <!-- cards section -->
+                
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web new project-box">
-                        <!-- card 1 ( latest and Full stack) -->
+                        
                         <div class="portfolio-item">
                             <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
@@ -313,7 +312,7 @@
                             </div>   
                         </div>             
                     </div>
-                    <!-- Card 2 (Full Stack, Latest)-->
+                    
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
@@ -340,7 +339,7 @@
                         </div>                         
                     </div>
 
-                    <!-- card 3 (Basic Web, Latest)-->
+                    
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-2.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
@@ -366,7 +365,7 @@
                             </div>    
                         </div>              
                     </div> 
-                    <!-- card 4 (Full Stack) -->
+                    
                     <div class="col-md-6 col-lg-4 web">
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-4.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
@@ -392,7 +391,7 @@
                             </div>
                         </div>                                                     
                     </div>
-                    <!-- card 5 (Basic Web) -->
+                    
                     <div class="col-md-6 col-lg-4 advertising"> 
                         <div class="portfolio-item">
                             <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
@@ -418,7 +417,7 @@
                             </div>
                         </div>                                                       
                     </div> 
-                    <!-- card 6 Full Stack latest-->
+                    
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-3.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
@@ -444,7 +443,7 @@
                             </div>
                         </div>                                                     
                     </div>
-                    <!-- card 7 (basic Web and Latest)  -->
+                    
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-3.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
@@ -470,7 +469,7 @@
                             </div>
                         </div>                                                       
                     </div> 
-                    <!-- card 8 (basic web, latest) -->
+                    
                     <div class="col-md-6 col-lg-4 advertising new"> 
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-4.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
@@ -497,7 +496,7 @@
                         </div>
                                 
                     </div> 
-                    <!--(card 9 latest and front-end) -->
+
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-1.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
@@ -523,7 +522,7 @@
                             </div> 
                         </div>
                     </div> 
-                    <!-- card 10(front-end) -->
+                    
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
@@ -549,7 +548,7 @@
                             </div>
                         </div>                                                     
                     </div> 
-                    <!-- card 11 (front-end, Latest) -->
+                    
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-3.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
@@ -575,7 +574,7 @@
                             </div>
                         </div>                                                    
                     </div> 
-                    <!-- card 12(front-end) -->
+                    
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-4.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
@@ -601,7 +600,7 @@
                             </div>
                         </div>                                                      
                     </div> 
-                    <!-- card 13(front-end) -->
+                    
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-5.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
@@ -629,9 +628,109 @@
                     </div>
                 </div> 
             </div>  
-        </div>            
-    </section>
+        </div>  -->
+
+
+    <!-- </section> -->
     <!-- End of portfolio section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- work project section starts -->
+        <section class="work" id="work">
+
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+        <div class="box-container">
+
+            <div class="box tilt">
+                <img draggable="false" src="assets/imgs/front.webp" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>Portfolio Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                        <div class="btns">
+                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="box tilt">
+                <img draggable="false" src="assets/projects/horse.jpg" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>Portfolio Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                        <div class="btns">
+                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <img draggable="false" src="assets/projects/horse.jpg" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>Portfolio Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                        <div class="btns">
+                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box tilt">
+                <img draggable="false" src="assets/projects/horse.jpg" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>Portfolio Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                        <div class="btns">
+                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="viewall">
+            <a href="/projects" class="btn"><span>View All</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+        </div>
+
+        </section>
+        <!-- work project section ends -->
+
 
     
     <br><br>

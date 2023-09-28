@@ -72,6 +72,7 @@ $(window).on("load", function() {
 
 
 
+
 // google maps
 function initMap() {
 // Styles a map in night mode.
@@ -165,3 +166,100 @@ function initMap() {
     });
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fetching skills data from json file
+
+async function fetchData(type = "skills") {
+  let response
+  type === "skills" ?
+      response = await fetch("json/skills.json")
+      :
+      response = await fetch("json/project.json")    //else fetch the projects 
+  const data = await response.json();
+  return data;
+}
+
+function showSkills(skills) {
+  let skillsContainer = document.getElementById("skillsContainer");
+  let skillHTML = "";
+  skills.forEach(skill => {
+      skillHTML += `
+      <div class="bar">
+            <div class="info">
+              <img src=${skill.icon} alt="skill" />
+              <span>${skill.name}</span>
+            </div>
+          </div>`
+  });
+  skillsContainer.innerHTML = skillHTML;
+}
+
+// fetching done
+
+
+// to display the fetched skills 
+fetchData().then(data => {
+  showSkills(data);
+});
+
+// skill display done 
+
+
+
+// function to show projects
+function showProjects(projects) {
+  let projectsContainer = document.querySelector("#work .box-container");
+  let projectHTML = "";
+  projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+      projectHTML += `
+      <div class="box tilt">
+    <img draggable="false" src="assets/projects/${project.image}.png" alt="project" />
+    <div class="content">
+      <div class="tag">
+      <h3>${project.name}</h3>
+      </div>
+      <div class="desc">
+        <p>${project.desc}</p>
+        <div class="btns">
+          <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+          <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>`
+  });
+  projectsContainer.innerHTML = projectHTML;
+
+  // fetching of projects and logic done 
+
+
+  // <!-- tilt js effect starts -->
+  // VanillaTilt.init(document.querySelectorAll(".tilt"), {
+  //     max: 15,
+  // });
+  // <!-- tilt js effect ends -->
+}
+
+// to display the fetched projects 
+fetchData("projects").then(data => {
+  showProjects(data);
+});
+// project display done
