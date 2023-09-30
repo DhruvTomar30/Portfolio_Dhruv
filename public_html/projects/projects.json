@@ -1,0 +1,62 @@
+[
+  {
+    "name": "KwikNotes ",
+    "desc": "  It is a centralized repository of semester notes and study material, Using HTML,CSS, JS, Bootstrap, NodeJS, QueryJS and version control with Github and Git.",
+    "image": "Kwiknotes",
+    "category": "lamp",
+    "links": {
+      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "code": "https://github.com/DhruvTomar30/KwikNotes"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Porfolio Website, fully responsive including all the frontend and backend functionalities. No Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "PortfolioWeb",
+    "category": "mern",
+    "links": {
+      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "code": "https://github.com/DhruvTomar30/Portfolio_Dhruv"
+    }
+  },
+  {
+    "name": "BlockChain Website",
+    "desc": "Designed and developed a dynamic website for providing an interactive platform for exploring the world of blockchain technology.",
+    "image": "Blockchain",
+    "category": "android",
+    "links": {
+      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "code": "https://github.com/DhruvTomar30/BlockchainClubWebsite"
+    }
+  },
+  {
+    "name": "Spotify-Clone",
+    "desc": "Crafted a Front-end Spotify clone, offering music enthusiasts a seamless and personalized audio streaming experience",
+    "image": "Spotify",
+    "category": "basicweb",
+    "links": {
+      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "code": "https://github.com/DhruvTomar30/Spotify_Clone"
+    }
+  },
+  {
+    "name": "Enord-Community",
+    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
+    "image": "PortfolioWeb2",
+    "category": ".android",
+    "links": {
+      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "code": "https://github.com/DhruvTomar30/Enord-Community-MERN-"
+    }
+  },
+  {
+    "name": "Upcoming",
+    "desc": "For Upcoming Project",
+    "image": "reactprojects.png",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]

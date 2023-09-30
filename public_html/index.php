@@ -9,6 +9,9 @@
     <!-- font icons -->
     <link id='favicon' rel="shortcut icon" href="./assets/imgs/Dhruv 12.jpg">
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+      <!-- Font Awesome -->
+      <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
+
     <!-- Bootstrap + Dhruv main styles -->
 	<link rel="stylesheet" href="assets/css/dhruv.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -21,7 +24,7 @@
             <ul class="social-icons pt-3">
                 <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/dhruv.tomar.5243/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/dhruvtomar15102004/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://www.google.com/"><i class="ti-google" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://dhruvtomar2020@gmail.com"><i class="ti-email" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/dhruvtomar_30/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                 <li class="social-item"><a class="social-link text-light" href="https://github.com/DhruvTomar30"><i class="ti-github" aria-hidden="true"></i></a></li>
             </ul>  
@@ -79,7 +82,7 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A Web Designer / Developer </h5>
                 <p class="mt-20">And I love to create beautiful and efficient websites for my customers. I love going through the entire process with the customer from concept, to design and then development and launch</p>
-                <button class="btn btn-outline-danger cv" ><i class="icon-down-circled2 "></i><a href="https://drive.google.com/file/d/1xfmVZhzxhUmlzGHdatbCjQ22GjN4yisV/view?usp=drive_link">Download my CV</a></button>
+                <button class="btn btn-outline-danger CV" ><i class="icon-down-circled2 "></i><a href="https://drive.google.com/file/d/1xfmVZhzxhUmlzGHdatbCjQ22GjN4yisV/view?usp=drive_link">Download my CV</a></button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -187,549 +190,61 @@
         </div>
     </section>
     <hr style="margin-top: 5px;">
-    <!-- Skills Section  -->
-    <section>
-        <div class="scale_img skill" >
-            <div class="photo-box"><img  class="photo" src="./assets/imgs/Dhruv 12.jpg" alt="image">
-            </div>
-            <div style=" padding-top: 20px;" class="col-lg-5">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="pull-left">
-                            <h4 class="mt-2">Skills</h4>
-                            <span class="line"></span>  
-                        </div>
-                    </div>
-                    <div class="card-body pb-2">
-                        <h6>HTML &amp; CSS</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h6>Bootstrap</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h6>JavaScript</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h6>MySQL</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h6>Java</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h6>Data Structure & Algorithms </h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                  
-                </div>
-                   <!-- Details -->
-                <div class="split">
-                    <div class="area-1">
-                    </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
-                        <div class="container">    
-                            <div class="row">
-                                <div class="col-lg-12">     
-                                    
-                                
-                                        <div class="icons-container">
-                                            <img class="logo" src="./assets/imgs/details-icon-html.png" alt="alternative">
-                                            <img class="logo" src="./assets/imgs/details-icon-css.png" alt="alternative">
-                                            <img class="logo" src="./assets/imgs/details-icon-bootstrap.png" alt="alternative">
-                                            <img class="logo" src="./assets/imgs/details-icon-javascript.png" alt="alternative">
-                                            <img class="logo logo1" src="./assets/imgs/mysql.png" alt="alternative">
-                                            <img class="logo logo2" src="./assets/imgs/react.png" alt="alternative">
-                                        </div> <!-- end of icons-container -->
-                                    <!-- end of text-container -->
-                                    <!-- end of text container -->
 
-                                </div> <!-- end of col -->
-                            </div> <!-- end of row -->
-                        </div> <!-- end of container -->
-                    </div> <!-- end of area-2 -->
-                </div> <!-- end of split -->
-                <!-- end of details -->
-        
-            </div>
-        </div>
+<!-- skills section starts -->
+<section class="skills" id="skills">
 
-    </section>
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> <span> Skills & Abilities</span></h2>
 
-         
-    <br><br><br>
-    <hr>
+    <div class="container">
+        <div class="row" id="skillsContainer">
 
-    <!-- Portfolio Section -->
-    <!-- <section class="section bg-custom-gray" id="portfolio"> -->
-        <!-- <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
-            <div class="portfolio">
-            
-            <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
-                        Latest 
-                    </a>
-                    <a href="#" data-filter=".advertising">
-                        Basic Web
-                    </a>
-                    <a href="#" data-filter=".branding">
-                        Front-end
-                    </a>
-                    <a href="#" data-filter=".web">
-                        Full Stack
-                    </a>
-                </div>
-                
-                <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 web new project-box">
-                        
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
-                             <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">Web</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in Tomar!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>   
-                        </div>             
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-4 web new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">Web</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in DHRUV!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>                         
-                    </div>
-
-                    
-                    <div class="col-md-6 col-lg-4 advertising new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">ADVERSTISING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam Project!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>    
-                        </div>              
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 web">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/web-4.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">WEB</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam hii!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-4 advertising"> 
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/spoty_clone.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">ADVERSITING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam Hello!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 web new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/web-3.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">WEB</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam heelo!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div>
-                    
-                    <div class="col-md-6 col-lg-4 advertising new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">ADVERSITING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam Shash!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                       
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 advertising new"> 
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">ADVERTISING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam Deep!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                                
-                    </div> 
-
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-1.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">BRANDING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam abc!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">BRANDING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam def!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                     
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-3.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">BRANDING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam GH!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                    
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-4.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">BRANDING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam IJ!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                      
-                    </div> 
-                    
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="assets/imgs/branding-5.jpg" class="img-fluid img-3" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title text-dark lead fw-bold">BRANDING</h6>
-                                    <p class="subtitle text-dark">Expedita corporis doloremque velit in totam!</p>
-                                    <div class="row align-self-center roww">
-                                        <img src="./assets/imgs/details-icon-html.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-css.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-bootstrap.png" height='20px' width='20px' class='m-1'>
-                                        <img src="./assets/imgs/details-icon-javascript.png" height='20px' width='20px' class='m-1'>
-                                    </div>
-                                    <div class="Live-links row " style="top: 0.5rem; text-align: center; justify-content: center;">
-                                        <a href="#">
-                                            <button style="display:flex; justify-content:space-between; padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:green; border-radius:1.5rem; color:white;  align-items:center; opacity:0.8;" class="view"><i class="ti-github"></i>&nbsp
-                                            View Code</button></a>
-                                        <a href="#">
-                                            <button style="padding:0.3rem; padding-left:0.5rem; padding-right:0.5rem; border:none; background-color:purple; border-radius:1.5rem; color:white; margin-left:0.7rem;  opacity:0.7;" class="view"><i class="ti-link"></i>&nbsp Live Link</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                                                   
-                    </div>
-                </div> 
-            </div>  
-        </div>  -->
-
-
-    <!-- </section> -->
-    <!-- End of portfolio section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- work project section starts -->
-        <section class="work" id="work">
-
-        <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-        <div class="box-container">
-
-            <div class="box tilt">
-                <img draggable="false" src="assets/imgs/front.webp" alt="" />
-                <div class="content">
-                    <div class="tag">
-                        <h3>Portfolio Website</h3>
-                    </div>
-                    <div class="desc">
-                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-                        <div class="btns">
-                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="box tilt">
-                <img draggable="false" src="assets/projects/horse.jpg" alt="" />
-                <div class="content">
-                    <div class="tag">
-                        <h3>Portfolio Website</h3>
-                    </div>
-                    <div class="desc">
-                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-                        <div class="btns">
-                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box tilt">
-                <img draggable="false" src="assets/projects/horse.jpg" alt="" />
-                <div class="content">
-                    <div class="tag">
-                        <h3>Portfolio Website</h3>
-                    </div>
-                    <div class="desc">
-                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-                        <div class="btns">
-                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="box tilt">
-                <img draggable="false" src="assets/projects/horse.jpg" alt="" />
-                <div class="content">
-                    <div class="tag">
-                        <h3>Portfolio Website</h3>
-                    </div>
-                    <div class="desc">
-                        <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-                        <div class="btns">
-                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                        <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
+            <!-- <div class="bar">
+              <div class="Infoo">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> -->
 
         </div>
+    </div>
+</section>
+<!-- skills section ends -->
+<br>
 
-        <div class="viewall">
-            <a href="/projects" class="btn"><span>View All</span>
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code "></i> <span>Projects Made</span></h2>
+
+   <div class="box-container">
+     <!-- <div class="box tilt">
+            <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+            <div class="content">
+                <div class="tag">
+                    <h3>Portfolio Website</h3>
+                </div>
+                <div class="desc">
+                    <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+                    <div class="btns">
+                        <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <div class="viewall">
+        <a href="/projects" class="btn"><span>View All</span>
             <i class="fas fa-arrow-right"></i>
         </a>
-        </div>
+    </div>
 
-        </section>
-        <!-- work project section ends -->
+</section>
+<!-- work project section ends -->
 
 
     
@@ -880,7 +395,7 @@
     <footer class="footer py-3">
         <div class="container d-flex justify-content-center">
             <p class="small mb-0 text-light ">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <b><i class="ti-heart text-danger"></i> </b> By <a href="#"><span class="text-danger" title="Portfolio"><b>DHRUV </b></span></a> 
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <b><i class="ti-heart text-danger"></i> </b> By <a href="https://www.linkedin.com/in/dhruvtomar15102004/"><span class="text-danger" title="Portfolio"><b>DHRUV </b></span></a> 
             </p>
         </div>
     </footer>
@@ -901,6 +416,8 @@
 
     <!-- Dhruv js -->
     <script src="assets/js/dhruv.js"></script>
+    <!-- Scroller -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- Home Page Script -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
