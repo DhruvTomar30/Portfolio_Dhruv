@@ -227,25 +227,33 @@ const srtop = ScrollReveal({
 });
 
 /* SCROLL HOME */
-srtop.reveal('.about-section .about-card h3', { delay:200 });
-srtop.reveal('.about-section .about-card h5',{ delay: 200 });
-srtop.reveal('.about-section .about-card p', { delay: 200 });
+srtop.reveal('.header .container .social-icons .social-item', { delay:200 });
+srtop.reveal('.header .container .header-content .h4',{ delay: 200 });
+srtop.reveal('.header .container .header-content .h1', { delay: 200 });
+srtop.reveal('.header .container .header-content .h4', { delay: 200 });
+srtop.reveal('.header .container .header-content .btn', { delay: 200 });
 
-srtop.reveal('.home .image', { delay: 400 });
-srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
-srtop.reveal('.home .telegram', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
+srtop.reveal('.nav .container .btn', { delay: 400 });
+srtop.reveal('.nav .container .div', { interval: 600 });
+srtop.reveal('.nav .container .ul', { interval: 800 });
+srtop.reveal('.nav .container .li', { interval: 1000 });
+
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
-srtop.reveal('.about .content .tag', { delay: 200 });
-srtop.reveal('.about .content p', { delay: 200 });
-srtop.reveal('.about .content .box-container', { delay: 200 });
-srtop.reveal('.about .content .resumebtn', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .h3', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .h5', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .p', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .btn', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .ul', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .row', { delay: 200 });
+srtop.reveal('.container-fluid .about-section .about-card .row .h6', { delay: 200 });
 
+/* SCROLL RESUME */
+srtop.reveal('.section .container .h2', { delay: 200 }); 
+srtop.reveal('.section .container .row .card .card-header .h4', { delay: 200 }); 
+srtop.reveal('.section .container .row .card .card-body .h6', { delay: 200 }); 
+srtop.reveal('.section .container .row .card .card-body .p', { delay: 200 }); 
+srtop.reveal('.section .container .row .card .card-body .h6', { delay: 200 }); 
 
 /* SCROLL SKILLS */
 srtop.reveal('.skills .container', { interval: 200 });

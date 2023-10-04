@@ -37,6 +37,8 @@
             </div>
         </div>
     </header>
+
+    <!-- Navbar Start -->
     <nav style="padding-bottom: 20px" class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +65,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#project" class="nav-link">Portfolio</a>
+                        <a href="#work" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a href="#Certificates" class="nav-link">Certificates</a>
@@ -75,6 +77,9 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar end -->
+
+    <!-- About Section -->
     <div class="container-fluid">
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card">
@@ -98,7 +103,7 @@
                 <ul class="social-icons pt-3">
                     <li class="social-item"><a class="social-link" href="https://www.facebook.com/dhruv.tomar.5243/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link" href="https://www.linkedin.com/in/dhruvtomar15102004/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="https://www.google.com/"><i class="ti-google" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="https://dhruvtomar2020@gmail.com"><i class="ti-email" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link" href="https://www.instagram.com/dhruvtomar_30/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link" href="https://github.com/DhruvTomar30"><i class="ti-github" aria-hidden="true"></i></a></li>
                 </ul>  
@@ -255,7 +260,7 @@
             <div class="row">
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="./assets/imgs/enord certificate.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="./assets/imgs/EnordNew.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h6 class="title">Enord</h6>
@@ -303,7 +308,7 @@
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder">
-                        <img src="assets/imgs/Oasis infobyte.png " alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <img src="assets/imgs/OasisNew.png " alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
                     <div class="content-holder">
                         <h4 class="title">Oasis Infobyte</h4>
@@ -382,7 +387,7 @@
                         <ul class="social-icons pt-4">
                             <li class="social-item"><a class="social-link text-dark" href="https://www.facebook.com/dhruv.tomar.5243/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/dhruvtomar15102004/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://www.google.com/"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="https://dhruvtomar2020@gmail.com"><i class="ti-email" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://www.instagram.com/dhruvtomar_30/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://github.com/DhruvTomar30"><i class="ti-github" aria-hidden="true"></i></a></li>
                         </ul> 

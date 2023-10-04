@@ -88,15 +88,15 @@ header .navbar li{
 }
 header .navbar ul li a{
   font-size: 1.57rem;
-  color: #0E2431;
+  color: #000;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-  color: #011aff;
-  border-bottom: .2rem solid #011aff;
+  color: #F85C70;
+  border-bottom: .2rem solid #ef3f56;
   padding: .5rem 0;
 }
 /* navbar ends */
@@ -144,7 +144,7 @@ header .navbar ul li a:hover{
     padding: 1rem;
     color: #fff;
     border-radius: .5rem;
-    border-bottom: .5rem solid #011aff;
+    border-bottom: .5rem solid #F85C70;
   }
   .fa-times{
     transform: rotate(180deg);
@@ -166,7 +166,7 @@ header .navbar ul li a:hover{
   padding: 1rem;
 }
 .work .heading span{
-  color: rgb(255, 230, 0);
+  color: #F85C70;
 }
 .work .button-group{
   display: flex;
@@ -233,7 +233,7 @@ header .navbar ul li a:hover{
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #F85C70;
 }
 .work .box-container .box .content .tag h3{
   font-size: 2rem;
@@ -267,7 +267,7 @@ header .navbar ul li a:hover{
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover{
-  background: #310ae0f5;
+  background: #F85C70;
 }
 
 @media screen and (max-width: 450px) {
@@ -341,7 +341,7 @@ header .navbar ul li a:hover{
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: #F85C70;
   color: rgb(13, 0, 44);
   border-radius: 5rem;
   transition: 1s linear;
