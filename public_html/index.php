@@ -96,7 +96,7 @@
                     <li><span>Birthdate</span> : 15/10/2004</li>
                     <li><span>Email</span> : dhruvtomar2020@gmail.com</li>
                     <li><span>Phone</span> : 9599305251</li>
-                    <li><span>Qualification</span> : BCA (Persuing)</li>
+                    <li><span>Qualification</span> : BCA (Pursuing)</li>
                     
                     <li><span>Address</span> : Delhi-110092.</li>
                 </ul>
@@ -202,7 +202,7 @@
     <h2 class="heading"><i class="fas fa-laptop-code"></i> <span> Skills & Abilities</span></h2>
 
     <div class="container">
-        <div class="row" id="skillsContainer">
+        <div class="row skillrow" id="skillsContainer">
 
             <!-- <div class="bar">
               <div class="Infoo">

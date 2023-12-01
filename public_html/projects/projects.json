@@ -1,17 +1,17 @@
 [
   {
     "name": "KwikNotes ",
-    "desc": "  It is a centralized repository of semester notes and study material, Using HTML,CSS, JS, Bootstrap, NodeJS, QueryJS and version control with Github and Git.",
+    "desc": "  A centralized repository of notes and study material, Using HTML,CSS, JS, Bootstrap, NodeJS, QueryJS and VCS (Github) and Git.",
     "image": "Kwiknotes",
     "category": "lamp",
     "links": {
-      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "view": "https://kwiknotes.in/",
       "code": "https://github.com/DhruvTomar30/KwikNotes"
     }
   },
   {
     "name": "Portfolio Website",
-    "desc": "Personal Porfolio Website, fully responsive including all the frontend and backend functionalities. No Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "desc": "Personal Porfolio Website, fully responsive including all the frontend and backend functionalities.",
     "image": "PortfolioWeb",
     "category": "mern",
     "links": {
@@ -21,11 +21,11 @@
   },
   {
     "name": "BlockChain Website",
-    "desc": "Designed and developed a dynamic website for providing an interactive platform for exploring the world of blockchain technology.",
+    "desc": "Designed and working on a dynamic website for providing an interactive platform for exploring the world of blockchain technology.",
     "image": "Blockchain",
     "category": "lamp",
     "links": {
-      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "view": "#",
       "code": "https://github.com/DhruvTomar30/BlockchainClubWebsite"
     }
   },
@@ -35,7 +35,7 @@
     "image": "Spotify",
     "category": "basicweb",
     "links": {
-      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "view": "#",
       "code": "https://github.com/DhruvTomar30/Spotify_Clone"
     }
   },
@@ -45,7 +45,7 @@
     "image": "PortfolioWeb2",
     "category": "mern",
     "links": {
-      "view": "https://portfoliodhruv.000webhostapp.com/",
+      "view": "#",
       "code": "https://github.com/DhruvTomar30/Enord-Community-MERN-"
     }
   },
