@@ -1,7 +1,7 @@
 [
   {
     "name": "KwikNotes ",
-    "desc": "  A centralized repository of notes and study material, Using HTML,CSS, JS, Bootstrap, NodeJS, QueryJS and VCS (Github) and Git.",
+    "desc": "  A centralized repository of notes and study material, Using HTML,CSS, JS, Bootstrap, NodeJS, EmailJS, QueryJS and VCS (Github) and Git.",
     "image": "Kwiknotes",
     "category": "lamp",
     "links": {
@@ -20,43 +20,33 @@
     }
   },
   {
-    "name": "BlockChain Website",
-    "desc": "Designed and working on a dynamic website for providing an interactive platform for exploring the world of blockchain technology.",
-    "image": "Blockchain",
-    "category": "lamp",
+    "name": "E-Dashboard",
+    "desc": "E-Dashboard is a dynamic web application offering CRUD operations and secure JWT authentication to manage and visualize user data efficiently.",
+    "image": "EDashboard",
+    "category": "mern",
     "links": {
-      "view": "#",
-      "code": "https://github.com/DhruvTomar30/BlockchainClubWebsite"
+      "code": "https://github.com/DhruvTomar30/E-Dashboard"
     }
   },
+ 
   {
     "name": "Spotify-Clone",
     "desc": "Crafted a Front-end Spotify clone, offering music enthusiasts a seamless and personalized audio streaming experience",
     "image": "Spotify",
     "category": "basicweb",
     "links": {
-      "view": "#",
       "code": "https://github.com/DhruvTomar30/Spotify_Clone"
     }
   },
+  
   {
-    "name": "Enord-Community",
-    "desc": "A Community website for the organization and by this we will reach to those people who wants to find the solution for their day to day problems.",
-    "image": "PortfolioWeb2",
+    "name": "Propertify",
+    "desc": "Coming Soon",
+    "image": "reactprojects",
     "category": "mern",
     "links": {
-      "view": "#",
-      "code": "https://github.com/DhruvTomar30/Enord-Community-MERN-"
-    }
-  },
-  {
-    "name": "#",
-    "desc": "For Upcoming Project",
-    "image": "reactprojects",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
+      "view": "",
+      "code": "https://github.com/DhruvTomar30/Propertify"
     }
   }
 ]

@@ -195,8 +195,8 @@ a {
   background-color: transparent;
 }
 
-.CV{
-  color:#F85C70;
+.CVS:hover{
+  color: #000000;
   background-color: transparent;
   /* background-color: #fff; */
   /* border: ; */
@@ -3251,6 +3251,11 @@ fieldset:disabled a.btn {
   text-decoration: none;
   background-color: #F85C70;
   border-color: #F85C70;
+}
+
+.CV:hover{
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .btn-outline-danger:focus, .btn-outline-danger.focus {

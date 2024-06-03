@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with JohnDoe landing page.">
-    <meta name="author" content="Devcrud">
+    <meta name="description" content="Dhruv tomar PortFolio.">
+    <meta name="author" content="DhruvJdev">
     <title>Dhruv Tomar | Portfolio</title>
     <!-- font icons -->
     <link id='favicon' rel="shortcut icon" href="./assets/imgs/Dhruv 12.jpg">
@@ -32,7 +32,7 @@
                 <h4 class="header-subtitle">&nbsp;Hello, I am <br> </span></h4> 
                 <h1 class="header-title">Dhruv <span class="role"></h1>
                 <h4 class="header-subtitle1" >&nbsp;<span class="role1"></h4>
-                <button style="margin-right:0.75rem; margin-top:0.75rem" class="btn btn-primary btn-rounded print-me"><i class="ti-printer pr-2"></i><a class="print" href="https://drive.google.com/file/d/1xfmVZhzxhUmlzGHdatbCjQ22GjN4yisV/view?usp=drive_link">Print Resume</a></button>
+                <button style="margin-right:0.75rem; margin-top:0.75rem" class="btn btn-primary btn-rounded print-me"><i class="ti-printer pr-2"></i><a class="print" href="https://drive.google.com/file/d/1HHvzR6NSNFrSl7s0X-d04bnGZhOER2SJ/view?usp=sharing">Print Resume</a></button>
                 <!-- <button style="margin-top:0.75rem" class="btn btn-primary btn-rounded"><a class="print me" href="#contact">Hire me</a></button> -->
             </div>
         </div>
@@ -85,18 +85,18 @@
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Hi there I'm Dhruv,</h3>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3">A Web Designer / Developer </h5>
+                <h5 class="mb-3">A MERN Stack Developer </h5>
                 <p class="mt-20">And I love to create beautiful and efficient websites for my customers. I love going through the entire process with the customer from concept, to design and then development and launch</p>
-                <button class="btn btn-outline-danger CV" ><i class="icon-down-circled2 "></i><a href="https://drive.google.com/file/d/1xfmVZhzxhUmlzGHdatbCjQ22GjN4yisV/view?usp=drive_link">Download my CV</a></button>
+                <button class="btn btn-outline-danger CV" ><i class="icon-down-circled2 "></i><a class="CVS" href="https://drive.google.com/file/d/1HHvzR6NSNFrSl7s0X-d04bnGZhOER2SJ/view?usp=sharing">Download my CV</a></button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
                     <li><span>Birthdate</span> : 15/10/2004</li>
-                    <li><span>Email</span> : dhruvtomar2020@gmail.com</li>
+                    <li><span>Email</span> : dhruvtomar2025@gmail.com</li>
                     <li><span>Phone</span> : 9599305251</li>
-                    <li><span>Qualification</span> : BCA (Pursuing)</li>
+                    <li><span>Qualification</span> : BCA Graduate</li>
                     
                     <li><span>Address</span> : Delhi-110092.</li>
                 </ul>
@@ -441,8 +441,8 @@
 
     var typeData = new Typed(".role1", {
       strings: [
-        "Front-end Developer",
-        "UI / UX Designer",
+        "Full Stack Developer",
+        "MERN Stack Developer",
         "Web Developer | Designer",
        
       ],

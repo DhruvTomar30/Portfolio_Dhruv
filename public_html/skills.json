@@ -21,28 +21,31 @@
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "name": "Tailwind",
+        "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png"
     },
     {
         
         "name": "C",
         "icon": "https://img.icons8.com/color/48/c-programming.png"
     },
-
-
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
-    },
     {
         
-        "name": "Linux",
-        "icon": "https://img.icons8.com/color/48/000000/linux--v1.png"
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/color/48/000000/react-native.png"
     },
     {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs--v1.png"
+    }
+    ,
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/color/48/000000/express.png"
     },
     {
         "name": "MySQL",
@@ -55,11 +58,6 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs--v1.png"
     }
-
-
+    
 ]
