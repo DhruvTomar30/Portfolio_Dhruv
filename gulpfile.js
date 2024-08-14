@@ -11,6 +11,7 @@ const browserSync   = require('browser-sync').create();
 const autoprefixer  = require('gulp-autoprefixer');
 const jpgRecompress = require('imagemin-jpeg-recompress'); 
 const clean         = require('gulp-clean');
+const gulpSass = require('gulp-sass')(sass);
 
 
 // Paths
