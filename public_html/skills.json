@@ -35,6 +35,11 @@
         "icon": "https://img.icons8.com/color/48/000000/react-native.png"
     },
     {
+        "name": "NextJs",
+        "icon": "https://img.icons8.com/?size=48&id=AU6Wc7r56Fxz&format=png&color=000000"
+    }
+    ,
+    {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
@@ -59,5 +64,4 @@
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     }
-    
 ]

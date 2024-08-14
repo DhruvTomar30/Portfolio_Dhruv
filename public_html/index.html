@@ -7,7 +7,7 @@
     <meta name="author" content="DhruvJdev">
     <title>Dhruv Tomar | Portfolio</title>
     <!-- font icons -->
-    <link id='favicon' rel="shortcut icon" href="./assets/imgs/Dhruv 12.jpg">
+    <link id='favicon' rel="shortcut icon" href="./assets/imgs/main.png">
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
       <!-- Font Awesome -->
       <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" />
@@ -32,7 +32,7 @@
                 <h4 class="header-subtitle">&nbsp;Hello, I am <br> </span></h4> 
                 <h1 class="header-title">Dhruv <span class="role"></h1>
                 <h4 class="header-subtitle1" >&nbsp;<span class="role1"></h4>
-                <button style="margin-right:0.75rem; margin-top:0.75rem" class="btn btn-primary btn-rounded print-me"><i class="ti-printer pr-2"></i><a class="print" href="https://drive.google.com/file/d/1HHvzR6NSNFrSl7s0X-d04bnGZhOER2SJ/view?usp=sharing">Print Resume</a></button>
+                <button style="margin-right:0.75rem; margin-top:0.75rem" class="btn btn-primary btn-rounded print-me"><i class="ti-printer pr-2"></i><a class="print" target="_blank" href="https://drive.google.com/file/d/1Ye3zz_g81OoGlE-Xryil9wCw8kq3D-uC/view?usp=sharing">Print Resume</a></button>
                 <!-- <button style="margin-top:0.75rem" class="btn btn-primary btn-rounded"><a class="print me" href="#contact">Hire me</a></button> -->
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">A MERN Stack Developer </h5>
                 <p class="mt-20">And I love to create beautiful and efficient websites for my customers. I love going through the entire process with the customer from concept, to design and then development and launch</p>
-                <button class="btn btn-outline-danger CV" ><i class="icon-down-circled2 "></i><a class="CVS" href="https://drive.google.com/file/d/1HHvzR6NSNFrSl7s0X-d04bnGZhOER2SJ/view?usp=sharing">Download my CV</a></button>
+                <button class="btn btn-outline-danger CV" ><i class="icon-down-circled2 "></i><a class="CVS" href="https://drive.google.com/file/d/1Ye3zz_g81OoGlE-Xryil9wCw8kq3D-uC/view?usp=sharing">Download my CV</a></button>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -96,7 +96,7 @@
                     <li><span>Birthdate</span> : 15/10/2004</li>
                     <li><span>Email</span> : dhruvtomar2025@gmail.com</li>
                     <li><span>Phone</span> : 9599305251</li>
-                    <li><span>Qualification</span> : BCA Graduate</li>
+                    <li><span>Qualification</span> : MCA pursuing</li>
                     
                     <li><span>Address</span> : Delhi-110092.</li>
                 </ul>
@@ -274,7 +274,7 @@
                         <p>Successfully completed the enord Internship - a transformative learning experience that honed my skills, expanded my horizons, and opened doors to new possibilities in [Web Development, AI].</p>
 
                         <p><b>"Enord creating ease: Where passion meets innovation."</b></p>
-                        <p>Working as a Web Developer-React Intern where I am working on a project of building a community
+                        <p>Working as a Web Developer - MERN Intern where I am working on a project of building a community
                             web portal for the organization and by this we will reach to those people who wants to find the
                             solution for their day to day problems faced by them in their professional projects.
                         </p>
@@ -332,29 +332,29 @@
         </div>
     </section>
 
-    
+    <!-- Contact Section -->
     <div class="section contact" id="contact">
         <div id="map" class="map"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
-                        <h4 clas;s="contact-title">Send a message</h4>
-                        <form action="" method="post"> 
-                            <!-- reset(); return false; -->
+                        <h4 class="contact-title">Send a message</h4>
+                        <form id="contactForm">
                             <div class="form-group">
-                                <input  class="form-control" name="name" type="text" id="name" placeholder="Name *" >
+                                <input class="form-control" name="name" type="text" id="name" placeholder="Name *" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" name="email" type="email" id="email" placeholder="Email *" >
+                                <input class="form-control" name="email" type="email" id="email" placeholder="Email *" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="7" name="message" id="message" placeholder="How can I help you?" ></textarea>
+                                <textarea class="form-control" rows="7" name="message" id="message" placeholder="How can I help you?" required></textarea>
                             </div>
-                            <div class="form-group ">
-                                <button name="send" class="form-control btn btn-primary" >Send Message</button>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
                             </div>
                         </form>
+                        <div id="formResponse" class="form-response"></div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -364,7 +364,7 @@
                             <div class="col-1 pt-1 mr-1">
                                 <i class="ti-mobile icon-md"></i>
                             </div>
-                            <div class="col-10 ">
+                            <div class="col-10">
                                 <h6 class="d-inline">Phone : <br> <span class="text-muted">9599305251</span></h6>
                             </div>
                         </div>
@@ -373,7 +373,7 @@
                                 <i class="ti-map-alt icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted"></span>Delhi-110092.</span></h6>
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">Delhi-110092.</span></h6>
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -387,16 +387,20 @@
                         <ul class="social-icons pt-4">
                             <li class="social-item"><a class="social-link text-dark" href="https://www.facebook.com/dhruv.tomar.5243/"><i class="ti-facebook" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://www.linkedin.com/in/dhruvtomar15102004/"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://dhruvtomar2020@gmail.com"><i class="ti-email" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="mailto:dhruvtomar2020@gmail.com"><i class="ti-email" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://www.instagram.com/dhruvtomar_30/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
                             <li class="social-item"><a class="social-link text-dark" href="https://github.com/DhruvTomar30"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+
+     <!-- Toast container -->
+     <div id="toast-container"></div>
+
+
     <footer class="footer py-3">
         <div class="container d-flex justify-content-center">
             <p class="small mb-0 text-light ">
@@ -441,9 +445,10 @@
 
     var typeData = new Typed(".role1", {
       strings: [
-        "Full Stack Developer",
         "MERN Stack Developer",
-        "Web Developer | Designer",
+        "Full Stack Developer",
+        "Web Developer | Designer"
+        
        
       ],
       loop: true,
@@ -453,58 +458,43 @@
     });
   </script>
 
+  <!-- contact backend -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <script>
+   // Initialize EmailJS with your user ID
+emailjs.init('ipRx84xpbHv3VoGpT'); // Replace with your EmailJS User ID
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_81eaaz8', 'template_0mjb5dv', this)
+        .then((response) => {
+            showToast('Message sent successfully!', 'success');
+            event.target.reset();
+        })
+        .catch((error) => {
+            console.error('Error sending message:', error);
+            showToast('Error sending message. Please try again later.', 'error');
+        });
+});
+
+function showToast(message, type) {
+    const toastContainer = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.innerText = message;
+
+    toastContainer.appendChild(toast);
+
+    // Remove toast after 3 seconds
+    setTimeout(() => {
+        toast.remove();
+    }, 3000);
+}
+
+
+</script>
+
 </body>
-
 </html>
-
-<?php 
-//Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
-if(isset($_POST['send']))
-{
-$name=$_POST['name'];
-$email=$_POST['email'];
-$message=$_POST['message'];
-
-
-
-//Load Composer's autoloader
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
-
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
-
-try {
-    //Server setting                                             
-    $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'dhruvtomar2025@gmail.com';                     //SMTP username
-    $mail->Password   = 'gbtmzsjwmirhxlun';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
-    //Recipients
-    $mail->setFrom('dhruvtomar2025@gmail.com', 'Contact Form');
-    $mail->addAddress('dhruvtomar2025@gmail.com', 'Dhruv');     //Add a recipient
-   
-
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Contact Form';
-    $mail->Body    = "<b> Sender's name - $name <br> Sender's email - $email <br> Sender's message - $message </b>";
-   
-
-    $mail->send();
-    echo 'Message has been sent';
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}
-}
-?>
