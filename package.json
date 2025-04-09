@@ -2,7 +2,8 @@
   "name": "Dhruv_Tomar",
   "version": "1.5.0",
   "description": "An elegant responsive bootstrap 4.x theme.",
-  "main": "gulpfile.js",
+  "main": "gulpfile.mjs",
+  "type": "module",
   "author": "DevCRUD",
   "scripts": {
     "start": "gulp",
@@ -15,7 +16,6 @@
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^9.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
@@ -34,5 +34,8 @@
     "opera >= 23",
     "ios >= 7",
     "android >= 4"
-  ]
+  ],
+  "dependencies": {
+    "gulp-imagemin": "^7.1.0"
+  }
 }
