@@ -1,5 +1,15 @@
 [
   {
+    "name": "CityConcept",
+    "desc": "Where Your Urban Dreams Find a Home, Using NextJs, Tailwind",
+    "image": "CityConcept",
+    "category": "mern",
+    "links": {
+      "view": "https://cityconcepts.netlify.app/",
+      "code": "https://github.com/DhruvTomar30/CityConcept"
+    }
+  },
+  {
     "name": "KwikNotes ",
     "desc": "  A centralized repository of notes and study material, Using HTML,CSS, JS, Bootstrap, NodeJS, EmailJS, QueryJS and VCS (Github) and Git.",
     "image": "Kwiknotes",
@@ -10,26 +20,25 @@
     }
   },
   {
-    "name": "Portfolio Website",
-    "desc": "Personal Porfolio Website, fully responsive including all the frontend and backend functionalities.",
-    "image": "PortfolioWeb",
-    "category": "mern",
-    "links": {
-      "view": "#",
-      "code": "https://github.com/DhruvTomar30/Portfolio_Dhruv"
-    }
-  },
-  {
     "name": "E-Dashboard",
     "desc": "E-Dashboard is a dynamic web application offering CRUD operations and secure JWT authentication to manage and visualize user data efficiently.",
     "image": "EDashboard",
     "category": "mern",
     "links": {
-      "view": "#",
+      "view": "https://portfolio-dhruvv.netlify.app/",
       "code": "https://github.com/DhruvTomar30/E-Dashboard"
     }
   },
- 
+  {
+    "name": "CreativAiGen",
+    "desc": "CreativAiGen offers a dynamic blog experience across four categories: Influencers, Social Media, Content Creators, and News.",
+    "image": "CreativAiGen",
+    "category": "mern",
+    "links": {
+      "view": "https://creativaigen.netlify.app/",
+      "code": "https://github.com/DhruvTomar30/CreativAiGen"
+    }
+  },
   {
     "name": "Spotify-Clone",
     "desc": "Crafted a Front-end Spotify clone, offering music enthusiasts a seamless and personalized audio streaming experience",
@@ -40,7 +49,6 @@
       "code": "https://github.com/DhruvTomar30/Spotify_Clone"
     }
   },
-  
   {
     "name": "Propertify",
     "desc": "Coming Soon",
