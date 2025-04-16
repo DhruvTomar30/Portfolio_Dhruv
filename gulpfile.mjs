@@ -14,7 +14,6 @@ import clean from 'gulp-clean';
 import sassCompiler from 'sass';
 const isNetlify = process.env.NETLIFY;
 
-
 // Initialize BrowserSync and Sass
 const browserSync = browserSyncLib.create();
 const sass = gulpSass(sassCompiler);
@@ -86,6 +85,12 @@ export function vendorsTask() {
         .pipe(gulp.dest(paths.dist.vendors));
 }
 
+// Copy HTML to dist
+export function htmlTask() {
+    return gulp.src(paths.src.html)
+        .pipe(gulp.dest(paths.dist.root));
+}
+
 // Clean Dist
 export function cleanDistTask() {
     return gulp.src(paths.dist.root, { allowEmpty: true, read: false })
@@ -110,19 +115,17 @@ export function serveTask(cb) {
     gulp.watch(paths.src.scss, sassTask);
     gulp.watch(paths.src.css, cssTask).on('change', browserSync.reload);
     gulp.watch(paths.src.js, jsTask).on('change', browserSync.reload);
-    gulp.watch(paths.src.html).on('change', browserSync.reload);
+    gulp.watch(paths.src.html, htmlTask).on('change', browserSync.reload);
 
     cb();
 }
 
-
-// Build Task
+// Build Task (includes htmlTask)
 export const build = gulp.series(
     cleanDistTask,
-    gulp.parallel(sassTask, cssTask, jsTask, imagesTask, vendorsTask)
+    gulp.parallel(sassTask, cssTask, jsTask, imagesTask, vendorsTask, htmlTask)
 );
 
-
+// Default Task
 const defaultTask = isNetlify ? build : gulp.series(build, serveTask);
 export default defaultTask;
-
