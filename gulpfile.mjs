@@ -52,7 +52,7 @@ export function sassTask() {
 export function cssTask() {
     return gulp.src(paths.src.css)
         .pipe(cleanCSS({ compatibility: 'ie8' }))
-        .pipe(concat('johndoe.css'))
+        .pipe(concat('dhruv.css'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest(paths.dist.css));
 }
@@ -61,7 +61,7 @@ export function cssTask() {
 export function jsTask() {
     return gulp.src(paths.src.js)
         .pipe(uglify())
-        .pipe(concat('johndoe.js'))
+        .pipe(concat('dhruv.js'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest(paths.dist.js));
 }
