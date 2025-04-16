@@ -12,6 +12,8 @@ import autoprefixer from 'gulp-autoprefixer';
 import jpgRecompress from 'imagemin-jpeg-recompress';
 import clean from 'gulp-clean';
 import sassCompiler from 'sass';
+const isNetlify = process.env.NETLIFY;
+
 
 // Initialize BrowserSync and Sass
 const browserSync = browserSyncLib.create();
@@ -91,7 +93,13 @@ export function cleanDistTask() {
 }
 
 // BrowserSync + Watch
-export function serveTask() {
+export function serveTask(cb) {
+    if (isNetlify) {
+        console.log('Skipping serveTask on Netlify.');
+        cb(); // Do nothing
+        return;
+    }
+
     browserSync.init({
         server: {
             baseDir: paths.root.www
@@ -103,7 +111,10 @@ export function serveTask() {
     gulp.watch(paths.src.css, cssTask).on('change', browserSync.reload);
     gulp.watch(paths.src.js, jsTask).on('change', browserSync.reload);
     gulp.watch(paths.src.html).on('change', browserSync.reload);
+
+    cb();
 }
+
 
 // Build Task
 export const build = gulp.series(
@@ -111,11 +122,7 @@ export const build = gulp.series(
     gulp.parallel(sassTask, cssTask, jsTask, imagesTask, vendorsTask)
 );
 
-// Dev Task
-export const dev = gulp.series(
-    build,
-    serveTask
-);
 
-// Default Task
-export default dev;
+const defaultTask = isNetlify ? build : gulp.series(build, serveTask);
+export default defaultTask;
+
