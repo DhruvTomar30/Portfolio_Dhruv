@@ -12,6 +12,7 @@ import autoprefixer from 'gulp-autoprefixer';
 import jpgRecompress from 'imagemin-jpeg-recompress';
 import clean from 'gulp-clean';
 import sassCompiler from 'sass';
+import replace from 'gulp-replace';
 const isNetlify = process.env.NETLIFY;
 
 // Initialize BrowserSync and Sass
@@ -88,6 +89,8 @@ export function vendorsTask() {
 // Copy HTML to dist
 export function htmlTask() {
     return gulp.src(paths.src.html)
+        .pipe(replace('assets/css/dhruv.css', 'css/dhruv.min.css'))
+        .pipe(replace('assets/js/dhruv.js', 'js/dhruv.min.js'))
         .pipe(gulp.dest(paths.dist.root));
 }
 
