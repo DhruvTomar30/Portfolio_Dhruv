@@ -13,6 +13,7 @@ import jpgRecompress from 'imagemin-jpeg-recompress';
 import clean from 'gulp-clean';
 import sassCompiler from 'sass';
 import replace from 'gulp-replace';
+
 const isNetlify = process.env.NETLIFY;
 
 // Initialize BrowserSync and Sass
@@ -29,7 +30,15 @@ const paths = {
         js: 'public_html/assets/js/*.js',
         vendors: 'public_html/assets/vendors/**/*.*',
         imgs: 'public_html/assets/imgs/**/*.+(png|jpg|gif|svg)',
-        scss: 'public_html/assets/scss/**/*.scss'
+        scss: 'public_html/assets/scss/**/*.scss',
+        json: [
+            'public_html/*.json',
+            'public_html/projects/*.json'
+        ],
+        misc: [
+            'public_html/projects/**/*.*',
+            '!public_html/projects/**/*.html' // handled separately in htmlTask
+        ]
     },
     dist: {
         root: 'public_html/dist',
@@ -40,7 +49,7 @@ const paths = {
     }
 };
 
-// Compile SCSS
+// Compile SCSS to CSS
 export function sassTask() {
     return gulp.src(paths.src.scss)
         .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
@@ -49,7 +58,7 @@ export function sassTask() {
         .pipe(browserSync.stream());
 }
 
-// Minify + Combine CSS
+// Minify + Combine CSS (dhruv.css + responsive.css)
 export function cssTask() {
     return gulp.src([
         'public_html/assets/css/dhruv.css',
@@ -60,7 +69,6 @@ export function cssTask() {
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest(paths.dist.css));
 }
-
 
 // Minify + Combine JS
 export function jsTask() {
@@ -90,28 +98,38 @@ export function vendorsTask() {
         .pipe(gulp.dest(paths.dist.vendors));
 }
 
-// Copy HTML to dist
+// Copy HTML files (preserve subfolders like /projects/)
 export function htmlTask() {
-    return gulp.src(paths.src.html)
+    return gulp.src(paths.src.html, { base: 'public_html' })
         .pipe(replace('assets/css/dhruv.css', 'css/dhruv.min.css'))
-        .pipe(replace('assets/css/responsive.css', '')) // remove it
-        .pipe(replace(/<link rel="stylesheet" href="">\s*/, '')) // clean up empty tags if any
+        .pipe(replace('assets/css/responsive.css', '')) // merged into dhruv.min.css
         .pipe(replace('assets/js/dhruv.js', 'js/dhruv.min.js'))
         .pipe(gulp.dest(paths.dist.root));
 }
 
+// Copy JSON files to dist (e.g. skills.json, projects.json)
+export function jsonTask() {
+    return gulp.src(paths.src.json, { base: 'public_html' })
+        .pipe(gulp.dest(paths.dist.root));
+}
 
-// Clean Dist
+// Copy all other assets like project scripts, styles, etc.
+export function miscFilesTask() {
+    return gulp.src(paths.src.misc, { base: 'public_html' })
+        .pipe(gulp.dest(paths.dist.root));
+}
+
+// Clean dist folder
 export function cleanDistTask() {
     return gulp.src(paths.dist.root, { allowEmpty: true, read: false })
         .pipe(clean());
 }
 
-// BrowserSync + Watch
+// Serve with live-reload for development
 export function serveTask(cb) {
     if (isNetlify) {
         console.log('Skipping serveTask on Netlify.');
-        cb(); // Do nothing
+        cb();
         return;
     }
 
@@ -130,10 +148,19 @@ export function serveTask(cb) {
     cb();
 }
 
-// Build Task (includes htmlTask)
+// Full Build Task
 export const build = gulp.series(
     cleanDistTask,
-    gulp.parallel(sassTask, cssTask, jsTask, imagesTask, vendorsTask, htmlTask)
+    gulp.parallel(
+        sassTask,
+        cssTask,
+        jsTask,
+        imagesTask,
+        vendorsTask,
+        htmlTask,
+        jsonTask,
+        miscFilesTask
+    )
 );
 
 // Default Task
