@@ -51,12 +51,16 @@ export function sassTask() {
 
 // Minify + Combine CSS
 export function cssTask() {
-    return gulp.src(paths.src.css)
+    return gulp.src([
+        'public_html/assets/css/dhruv.css',
+        'public_html/assets/css/responsive.css'
+    ])
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(concat('dhruv.css'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest(paths.dist.css));
 }
+
 
 // Minify + Combine JS
 export function jsTask() {
@@ -90,9 +94,12 @@ export function vendorsTask() {
 export function htmlTask() {
     return gulp.src(paths.src.html)
         .pipe(replace('assets/css/dhruv.css', 'css/dhruv.min.css'))
+        .pipe(replace('assets/css/responsive.css', '')) // remove it
+        .pipe(replace(/<link rel="stylesheet" href="">\s*/, '')) // clean up empty tags if any
         .pipe(replace('assets/js/dhruv.js', 'js/dhruv.min.js'))
         .pipe(gulp.dest(paths.dist.root));
 }
+
 
 // Clean Dist
 export function cleanDistTask() {
