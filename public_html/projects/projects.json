@@ -1,9 +1,19 @@
 [
   {
+    "name": "FreshPick",
+    "desc": "FreshPick – Your trusted grocery store online. Pick fresh, live fresh with every order.",
+    "image": "Freshpick",
+    "category": "mern",
+    "links": {
+      "view": "https://https-github-com-dhruv-tomar30-fres-beta.vercel.app/",
+      "code": "https://github.com/DhruvTomar30/https---github.com-DhruvTomar30-FreshPick"
+    }
+  },
+  {
     "name": "CityConcept",
     "desc": "Where Your Urban Dreams Find a Home, Using NextJs, Tailwind",
     "image": "CityConcept",
-    "category": "mern",
+    "category": "basicweb",
     "links": {
       "view": "https://cityconcepts.netlify.app/",
       "code": "https://github.com/DhruvTomar30/CityConcept"
@@ -33,7 +43,7 @@
     "name": "CreativAiGen",
     "desc": "CreativAiGen offers a dynamic blog experience across four categories: Influencers, Social Media, Content Creators, and News.",
     "image": "CreativAiGen",
-    "category": "mern",
+    "category": "basicweb",
     "links": {
       "view": "https://creativaigen.netlify.app/",
       "code": "https://github.com/DhruvTomar30/CreativAiGen"
@@ -47,16 +57,6 @@
     "links": {
       "view": "#",
       "code": "https://github.com/DhruvTomar30/Spotify_Clone"
-    }
-  },
-  {
-    "name": "Propertify",
-    "desc": "Coming Soon",
-    "image": "reactprojects",
-    "category": "mern",
-    "links": {
-      "view": "#",
-      "code": "https://github.com/DhruvTomar30/Propertify"
     }
   }
 ]
