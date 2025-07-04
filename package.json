@@ -9,7 +9,7 @@
     "start": "gulp",
     "build": "gulp build"
   },
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^9.0.0",
@@ -22,7 +22,8 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^7.0.0",
-    "sass": "^1.77.8"
+    "sass": "^1.77.8",
+    "gulp-imagemin": "^7.1.0"
   },
   "browserslist": [
     "> 1%",
@@ -35,8 +36,5 @@
     "opera >= 23",
     "ios >= 7",
     "android >= 4"
-  ],
-  "dependencies": {
-    "gulp-imagemin": "^7.1.0"
-  }
+  ]
 }
