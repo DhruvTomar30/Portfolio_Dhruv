@@ -31,11 +31,6 @@
     {
         "name": "Redux",
         "icon": "https://img.icons8.com/color/48/redux.png"
-    },
-    
-    {
-        "name": "NextJs",
-        "icon": "https://img.icons8.com/?size=48&id=AU6Wc7r56Fxz&format=png&color=000000"
     }
     ,
     {
@@ -50,6 +45,11 @@
     {
         "name": "ExpressJS",
         "icon": "https://img.icons8.com/?size=48&id=2ZOaTclOqD4q&format=png&color=000000"
+    },
+    
+    {
+        "name": "Postgresql",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
     {
         "name": "MySQL",
