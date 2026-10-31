@@ -1,0 +1,573 @@
+{
+	"profile": {
+		"name": "Dhruv Tomar",
+		"headline": "Software Engineer at Capture A Trip",
+		"roles": [
+			"Full Stack Developer",
+			"Software Engineer",
+			"MERN Stack Developer",
+			"Next.js Developer"
+		],
+		"bio": "Full stack developer with 2+ years of production experience in React, TypeScript and Node.js — a core developer of an in-house CRM built from the ground up, spanning finance, payments, analytics and SEO.",
+		"avatarUrl": "/images/dhruv-headshot.jpg",
+		"resumeUrl": "https://drive.google.com/file/d/1nM6RXkxTbvbTNlR2dwRhu7wwBcTEUs2z/view?usp=sharing",
+		"email": "dhruvtomar2025@gmail.com",
+		"phone": "+91 95993 05251",
+		"location": "Gurugram, Haryana, India",
+		"birthDate": "2004-10-15",
+		"qualification": "MCA, Maharishi Dayanand University (2024 – 2026)",
+		"availableForWork": true,
+		"socials": [
+			{
+				"platform": "github",
+				"url": "https://github.com/DhruvTomar30"
+			},
+			{
+				"platform": "linkedin",
+				"url": "https://www.linkedin.com/in/dhruvtomar15102004/"
+			},
+			{
+				"platform": "instagram",
+				"url": "https://www.instagram.com/dhruvtomar_30/"
+			},
+			{
+				"platform": "facebook",
+				"url": "https://www.facebook.com/dhruv.tomar.5243/"
+			}
+		],
+		"expertise": [
+			{
+				"title": "Frontend Engineering",
+				"description": "React, Next.js and TypeScript interfaces built from reusable components — admin portals, dashboards and high-converting landing pages."
+			},
+			{
+				"title": "Backend & APIs",
+				"description": "30+ validated REST APIs on Node.js and Express with MongoDB/PostgreSQL aggregation pipelines, JWT auth, RBAC and RabbitMQ queues."
+			},
+			{
+				"title": "Performance & SEO",
+				"description": "Cut a homepage render from ~2–3 s to under 100 ms and grew organic traffic ~35% with canonical tags and segmented XML sitemaps."
+			}
+		],
+		"stats": [
+			{
+				"label": "Years in production",
+				"value": "2+"
+			},
+			{
+				"label": "Features shipped",
+				"value": "25+"
+			},
+			{
+				"label": "REST APIs authored",
+				"value": "30+"
+			}
+		]
+	},
+	"experience": [
+		{
+			"id": "exp-0",
+			"role": "Software Engineer",
+			"company": "Capture A Trip",
+			"companyUrl": "https://www.captureatrip.com/",
+			"employmentType": "Full-time",
+			"location": "Gurugram, India",
+			"startDate": "2025-02",
+			"endDate": null,
+			"summary": "Core developer on the small team that built the company CRM from scratch, driving full-stack development across four products: the website, admin portal, CRM and landing pages.",
+			"highlights": [
+				"Launched 25+ production features across the Website, Admin Portal, CRM and Landing Pages",
+				"Designed 4 core CRM modules — Lead Management, Vendor Management, Dashboard Analytics and KYC — used daily by sales, ops and finance",
+				"Delivered 3 high-converting landing pages with self-booking payments and server-side conversion tracking (Meta CAPI, GA4)",
+				"Slashed homepage render time from ~2–3 s to under 100 ms (95%+ faster) and lifted organic traffic ~35% via canonical tags and segmented XML sitemaps"
+			],
+			"techStack": [
+				"React",
+				"TypeScript",
+				"Node.js",
+				"MongoDB",
+				"PostgreSQL",
+				"RabbitMQ",
+				"Meta CAPI",
+				"GA4"
+			],
+			"order": 0
+		},
+		{
+			"id": "exp-1",
+			"role": "Junior Software Developer",
+			"company": "Holiday Tribe",
+			"companyUrl": "https://holidaytribe.ai/",
+			"employmentType": "Full-time",
+			"location": "India",
+			"startDate": "2024-08",
+			"endDate": "2024-12",
+			"summary": "Revamped the Angular-based Admin Portal, focusing on reusable UI, performance and secure routing.",
+			"highlights": [
+				"Rebuilt the Admin Portal UI with 20+ reusable components across 10+ dashboard screens",
+				"Cut portal load time by 40% with lazy loading and API caching",
+				"Secured 15+ routes with JWT-based authentication and route protection"
+			],
+			"techStack": [
+				"Angular",
+				"TypeScript",
+				"JWT",
+				"REST APIs"
+			],
+			"order": 1
+		},
+		{
+			"id": "exp-2",
+			"role": "MERN Stack Intern",
+			"company": "Flytant Developers Pvt. Ltd.",
+			"companyUrl": "https://flytant.com/",
+			"employmentType": "Internship",
+			"location": "India",
+			"startDate": "2024-07",
+			"endDate": "2024-08",
+			"summary": "Built content and real-estate platforms with Next.js and Tailwind CSS.",
+			"highlights": [
+				"Developed CityConcepts, a Next.js real-estate platform with advanced search and BHK filtering for 10+ US locations",
+				"Produced CreativAiGen, a blog platform organising 100+ articles into 8 categories"
+			],
+			"techStack": [
+				"Next.js",
+				"React",
+				"Tailwind CSS",
+				"Node.js"
+			],
+			"order": 2
+		}
+	],
+	"education": [
+		{
+			"id": "edu-0",
+			"degree": "Master of Computer Applications (MCA)",
+			"institution": "Maharishi Dayanand University",
+			"location": "Faridabad, Haryana",
+			"startYear": "2024",
+			"endYear": "2026",
+			"description": "",
+			"order": 0
+		},
+		{
+			"id": "edu-1",
+			"degree": "Bachelor of Computer Applications (BCA)",
+			"institution": "Delhi Skill and Entrepreneurship University (DSEU)",
+			"location": "Delhi",
+			"startYear": "2021",
+			"endYear": "2024",
+			"description": "Graduated with a CGPA of 9.3 / 10.",
+			"order": 1
+		},
+		{
+			"id": "edu-2",
+			"degree": "Senior Secondary (12th)",
+			"institution": "MC Gopi Chand Inter College",
+			"location": "",
+			"startYear": "2020",
+			"endYear": "2021",
+			"description": "",
+			"order": 2
+		}
+	],
+	"skills": [
+		{
+			"id": "skill-0",
+			"name": "JavaScript",
+			"group": "languages",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+			"order": 0
+		},
+		{
+			"id": "skill-1",
+			"name": "TypeScript",
+			"group": "languages",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+			"order": 1
+		},
+		{
+			"id": "skill-2",
+			"name": "React",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+			"order": 2
+		},
+		{
+			"id": "skill-3",
+			"name": "Next.js",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+			"order": 3
+		},
+		{
+			"id": "skill-4",
+			"name": "Redux Toolkit",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+			"order": 4
+		},
+		{
+			"id": "skill-5",
+			"name": "Zustand",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/zustand/zustand-original.svg",
+			"order": 5
+		},
+		{
+			"id": "skill-6",
+			"name": "Tailwind CSS",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+			"order": 6
+		},
+		{
+			"id": "skill-7",
+			"name": "shadcn/ui",
+			"group": "frontend",
+			"iconUrl": "https://cdn.simpleicons.org/shadcnui/a1a1aa",
+			"order": 7
+		},
+		{
+			"id": "skill-8",
+			"name": "Bootstrap",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+			"order": 8
+		},
+		{
+			"id": "skill-9",
+			"name": "HTML5",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+			"order": 9
+		},
+		{
+			"id": "skill-10",
+			"name": "CSS3",
+			"group": "frontend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+			"order": 10
+		},
+		{
+			"id": "skill-11",
+			"name": "Node.js",
+			"group": "backend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+			"order": 11
+		},
+		{
+			"id": "skill-12",
+			"name": "Express",
+			"group": "backend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+			"order": 12
+		},
+		{
+			"id": "skill-13",
+			"name": "REST APIs",
+			"group": "backend",
+			"iconUrl": "",
+			"order": 13
+		},
+		{
+			"id": "skill-14",
+			"name": "Zod",
+			"group": "backend",
+			"iconUrl": "https://cdn.simpleicons.org/zod",
+			"order": 14
+		},
+		{
+			"id": "skill-15",
+			"name": "Joi",
+			"group": "backend",
+			"iconUrl": "",
+			"order": 15
+		},
+		{
+			"id": "skill-16",
+			"name": "JWT Auth",
+			"group": "backend",
+			"iconUrl": "https://cdn.simpleicons.org/jsonwebtokens",
+			"order": 16
+		},
+		{
+			"id": "skill-17",
+			"name": "RabbitMQ",
+			"group": "backend",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg",
+			"order": 17
+		},
+		{
+			"id": "skill-18",
+			"name": "Aggregation Pipelines",
+			"group": "backend",
+			"iconUrl": "",
+			"order": 18
+		},
+		{
+			"id": "skill-19",
+			"name": "PostgreSQL",
+			"group": "database",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+			"order": 19
+		},
+		{
+			"id": "skill-20",
+			"name": "MongoDB",
+			"group": "database",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+			"order": 20
+		},
+		{
+			"id": "skill-21",
+			"name": "MySQL",
+			"group": "database",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+			"order": 21
+		},
+		{
+			"id": "skill-22",
+			"name": "Stripe",
+			"group": "integrations",
+			"iconUrl": "https://cdn.simpleicons.org/stripe",
+			"order": 22
+		},
+		{
+			"id": "skill-23",
+			"name": "Razorpay Checkout (frontend)",
+			"group": "integrations",
+			"iconUrl": "https://cdn.simpleicons.org/razorpay",
+			"order": 23
+		},
+		{
+			"id": "skill-24",
+			"name": "PhonePe Checkout (frontend)",
+			"group": "integrations",
+			"iconUrl": "https://cdn.simpleicons.org/phonepe",
+			"order": 24
+		},
+		{
+			"id": "skill-25",
+			"name": "AWS S3",
+			"group": "integrations",
+			"iconUrl": "",
+			"order": 25
+		},
+		{
+			"id": "skill-26",
+			"name": "Cloudinary",
+			"group": "integrations",
+			"iconUrl": "https://cdn.simpleicons.org/cloudinary",
+			"order": 26
+		},
+		{
+			"id": "skill-27",
+			"name": "Meta CAPI",
+			"group": "integrations",
+			"iconUrl": "https://cdn.simpleicons.org/meta",
+			"order": 27
+		},
+		{
+			"id": "skill-28",
+			"name": "GA4",
+			"group": "integrations",
+			"iconUrl": "https://cdn.simpleicons.org/googleanalytics",
+			"order": 28
+		},
+		{
+			"id": "skill-29",
+			"name": "Git",
+			"group": "tools",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+			"order": 29
+		},
+		{
+			"id": "skill-30",
+			"name": "GitHub",
+			"group": "tools",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+			"order": 30
+		},
+		{
+			"id": "skill-31",
+			"name": "Postman",
+			"group": "tools",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+			"order": 31
+		},
+		{
+			"id": "skill-32",
+			"name": "Jira",
+			"group": "tools",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg",
+			"order": 32
+		},
+		{
+			"id": "skill-33",
+			"name": "Vercel",
+			"group": "tools",
+			"iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg",
+			"order": 33
+		},
+		{
+			"id": "skill-34",
+			"name": "Render",
+			"group": "tools",
+			"iconUrl": "https://cdn.simpleicons.org/render/a1a1aa",
+			"order": 34
+		}
+	],
+	"projects": [
+		{
+			"id": "p-capture-a-trip-crm",
+			"title": "Capture A Trip — CRM",
+			"slug": "capture-a-trip-crm",
+			"description": "Greenfield CRM with 8 modules and 30+ REST APIs: finance & bills ledger with multi-stage approvals and 15+ profitability metrics, lead management for 500+ leads with auto-assignment, vendor management for 100+ vendors, dashboard analytics and an automated 3-stage KYC flow.",
+			"category": "professional",
+			"techStack": [
+				"React",
+				"Node.js",
+				"MongoDB",
+				"PostgreSQL",
+				"RabbitMQ",
+				"Joi"
+			],
+			"imageUrl": "",
+			"liveUrl": "",
+			"repoUrl": "",
+			"featured": true,
+			"order": 0
+		},
+		{
+			"id": "p-capture-a-trip-website",
+			"title": "Capture A Trip — Website & Landing Pages",
+			"slug": "capture-a-trip-website",
+			"description": "3 high-intent landing pages with enquiry and instant-book journeys, a self-booking flow using JWT-signed links with frontend checkout integration for PhonePe and Razorpay, and server-side Meta CAPI + GA4 tracking for ~100% event coverage.",
+			"category": "professional",
+			"techStack": [
+				"React",
+				"TypeScript",
+				"Meta CAPI",
+				"GA4",
+				"JWT"
+			],
+			"imageUrl": "/images/projects/captureatrip.jpg",
+			"liveUrl": "https://www.captureatrip.com/",
+			"repoUrl": "",
+			"featured": true,
+			"order": 1
+		},
+		{
+			"id": "p-freshpick",
+			"title": "FreshPick",
+			"slug": "freshpick",
+			"description": "Responsive grocery e-commerce store with 50+ products, dual checkout (Cash on Delivery + Stripe), JWT auth for buyers and sellers, and a seller dashboard with real-time stock and order status.",
+			"category": "mern",
+			"techStack": [
+				"React",
+				"Node.js",
+				"MongoDB",
+				"Stripe",
+				"JWT",
+				"Cloudinary"
+			],
+			"imageUrl": "/images/projects/freshpick.jpg",
+			"liveUrl": "https://https-github-com-dhruv-tomar30-fres-beta.vercel.app/",
+			"repoUrl": "https://github.com/DhruvTomar30/https---github.com-DhruvTomar30-FreshPick",
+			"featured": true,
+			"order": 2
+		},
+		{
+			"id": "p-cityconcept",
+			"title": "CityConcepts",
+			"slug": "cityconcept",
+			"description": "Next.js real-estate platform with advanced search and BHK filtering across 10+ US locations.",
+			"category": "nextjs",
+			"techStack": [
+				"Next.js",
+				"Tailwind CSS"
+			],
+			"imageUrl": "/images/projects/cityconcepts.jpg",
+			"liveUrl": "https://cityconcepts.netlify.app/",
+			"repoUrl": "https://github.com/DhruvTomar30/CityConcept",
+			"featured": true,
+			"order": 3
+		},
+		{
+			"id": "p-creativaigen",
+			"title": "CreativAiGen",
+			"slug": "creativaigen",
+			"description": "Blog platform organising 100+ articles into 8 categories for streamlined reader navigation.",
+			"category": "nextjs",
+			"techStack": [
+				"Next.js",
+				"Tailwind CSS"
+			],
+			"imageUrl": "/images/projects/creativaigen.jpg",
+			"liveUrl": "https://creativaigen.netlify.app/",
+			"repoUrl": "https://github.com/DhruvTomar30/CreativAiGen",
+			"featured": false,
+			"order": 4
+		},
+		{
+			"id": "p-kwiknotes",
+			"title": "KwikNotes",
+			"slug": "kwiknotes",
+			"description": "A centralised repository of notes and study material for students, with email integration and a fast, simple UI.",
+			"category": "client",
+			"techStack": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Bootstrap",
+				"Node.js",
+				"EmailJS"
+			],
+			"imageUrl": "/images/projects/kwiknotes.jpg",
+			"liveUrl": "https://kwiknotes.in/",
+			"repoUrl": "https://github.com/DhruvTomar30/KwikNotes",
+			"featured": false,
+			"order": 5
+		},
+		{
+			"id": "p-spotify-clone",
+			"title": "Spotify Clone",
+			"slug": "spotify-clone",
+			"description": "A front-end Spotify clone offering a seamless, personalised audio-streaming experience.",
+			"category": "frontend",
+			"techStack": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			],
+			"imageUrl": "/images/projects/spotify.png",
+			"liveUrl": "",
+			"repoUrl": "https://github.com/DhruvTomar30/Spotify_Clone",
+			"featured": false,
+			"order": 6
+		}
+	],
+	"certificates": [
+		{
+			"id": "cert-0",
+			"title": "Junior Software Developer",
+			"issuer": "Holiday Tribe",
+			"description": "Experience certificate for revamping the admin portal UI.",
+			"imageUrl": "",
+			"url": "",
+			"issuedOn": "2024-12",
+			"order": 0
+		},
+		{
+			"id": "cert-1",
+			"title": "MERN Stack Internship",
+			"issuer": "Flytant Developers Pvt. Ltd.",
+			"description": "Internship certificate for building CityConcepts and CreativAiGen.",
+			"imageUrl": "",
+			"url": "",
+			"issuedOn": "2024-08",
+			"order": 1
+		}
+	]
+}

@@ -1,31 +1,22 @@
-# Node modules
+# Dependencies & build output
 node_modules
+.next
+dist
 
-# Build output directories
-public_html/dist/
-public_html/assets/css/
-public_html/assets/js/
-public_html/assets/imgs/
+# Environment files (keep the examples)
+.env
+.env.*
+!.env.example
 
-# Temporary files
+# Logs & temp files
 *.log
+logs
 *.tmp
 *.swp
 *.swo
 
-# OS specific files
+# OS / editor files
 .DS_Store
 Thumbs.db
-
-# IDE/editor specific files
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# Gulp related files
-gulpfile.js
-package-lock.json
-
-# Environment files
-.env

@@ -1,0 +1,14 @@
+# Local MongoDB for development:  docker compose -f docker-compose.dev.yml up -d
+services:
+  mongo:
+    image: mongo:8
+    container_name: portfolio-mongo
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - portfolio-mongo-data:/data/db
+    restart: unless-stopped
+
+volumes:
+  portfolio-mongo-data:
+    external: true
